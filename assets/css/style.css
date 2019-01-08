@@ -40,7 +40,7 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    background-color: #607D8B;
 }
 
 .clr-set {
@@ -93,7 +93,7 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #FF2276;
+    background-color: #03A9F4;
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
@@ -144,7 +144,7 @@ padding:0px;
         font-weight: 900;
         padding-top: 180px;
         padding-bottom: 35px;
-        color: #FF2276;
+        color: #FFFFFF;
     }
 
 
@@ -159,7 +159,7 @@ padding:0px;
     SERVICES STYLES
 ==================================*/
 #services {
-    background-color: rgba(237, 237, 237, 1);
+    background-color: #B3E5FC;
 }
 
     #services i {
@@ -286,7 +286,7 @@ padding:0px;
   TEAM SECTION STYLES
  ============================================================ */
 #team {
-    background-color: rgba(237, 237, 237, 1);
+    background-color: #B3E5FC;
 }
 
 .media img {
