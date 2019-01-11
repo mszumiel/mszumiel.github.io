@@ -12,11 +12,9 @@
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
    
 ========================================================  */
-
 /*==============================
 GENERAL STYLES
 ==============================*/
-
 @import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
 
 body {
@@ -41,10 +39,11 @@ section {
 
 .set-bk-clr {
     background-color: #607D8B;
+    border-color: #607D8B;
 }
 
 .clr-set {
-    color: #FF2276;
+    color: #FFFFFF;
 }
 
 .f-big {
@@ -53,8 +52,10 @@ section {
 }
 
 .set-bk-clr:hover {
-    background-color: rgba(107, 1, 41, 0.67);
+    background-color: #607D8B;
+    border-color: #3c5870;
 }
+
 /*==============================
 NAVBAR STYLES
 ==============================*/
@@ -63,46 +64,51 @@ NAVBAR STYLES
     font-size: 20px;
     text-transform: uppercase;
 }
+
 .navbar-brand {
-padding:0px;
+    padding: 0px;
 
 }
-    .navbar-brand img {
-        height:50px;
-    }
+
+.navbar-brand img {
+    height: 50px;
+}
+
 .navbar-default .navbar-toggle {
     border-color: #FFF;
 }
 
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #FFF;
-    }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
 
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-        background-color: rgba(0, 0, 0, 0);
-    }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
     font-weight: 900;
 }
 
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: #000;
-        text-decoration: none;
-    }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+    text-decoration: none;
+}
 
 .navbar-default {
     background-color: #03A9F4;
     border-color: transparent;
 }
+
 /* ADDED PADDING IN NAVBAR */
 .navbar {
     padding: 15px;
-    -webkit-transition: background .8s ease-out,padding .8s ease-out;
-    -moz-transition: background .8s ease-out,padding .8s ease-out;
-    transition: background .8s ease-out,padding .8s ease-out;
+    -webkit-transition: background .8s ease-out, padding .8s ease-out;
+    -moz-transition: background .8s ease-out, padding .8s ease-out;
+    transition: background .8s ease-out, padding .8s ease-out;
 }
+
 /* CLASS FOR REMOVING PADDING IN NAVBAR*/
 .navbar-pad-original {
     padding: 0px;
@@ -118,7 +124,6 @@ padding:0px;
     -moz-border-radius: 4px;
 }
 
-
 /* =============================================================
   HEADER SECTION STYLES
  ============================================================ */
@@ -133,27 +138,26 @@ padding:0px;
     color: #fff;
 }
 
-    #header .overlay {
-        background-color: rgba(3, 3, 3, 0.8);
-        min-height: 700px;
-    }
+#header .overlay {
+    background-color: rgba(3, 3, 3, 0.8);
+    min-height: 700px;
+}
 
-    #header h1 {
-        line-height: 60px;
-        font-size: 45px;
-        font-weight: 900;
-        padding-top: 180px;
-        padding-bottom: 35px;
-        color: #FFFFFF;
-    }
+#header h1 {
+    line-height: 60px;
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 180px;
+    padding-bottom: 35px;
+    color: #FFFFFF;
+}
 
-
-    #header h4 {
-        line-height: 30px;
-        font-size: 12px;
-        padding-bottom: 40px;
-        text-transform: uppercase;
-    }
+#header h4 {
+    line-height: 30px;
+    font-size: 12px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
 
 /*================================
     SERVICES STYLES
@@ -162,22 +166,23 @@ padding:0px;
     background-color: #B3E5FC;
 }
 
-    #services i {
-        font-size: 80px;
-        padding: 30px;
-        color: #757575;
-    }
+#services i {
+    font-size: 80px;
+    padding: 30px;
+    color: #757575;
+}
 
-    #services h4 {
-        padding-bottom: 5px;
-        padding-top: 15px;
-    }
+#services h4 {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
 /* =============================================================
   CLIENTS SECTION STYLES
  ============================================================ */
 
-#clients {
-    background: url(../img/clients.jpg) no-repeat center center;
+#customers {
+    background: url(../img/clients.png) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -185,46 +190,46 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #clients .overlay {
-        background-color: rgba(0,0,0,0.7);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#customers .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-.clients-carousel {
+.customers-carousel {
     margin-top: 50px; /*SMALL TOP MARGIN FOR SPACE */
     padding: 0 30px 30px 30px;
 }
 
-    .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
-    }
+.customers-carousel .thumbnail {
+    border: 1px solid #FFFFFF;
+}
 
-    .clients-carousel .carousel-control.left {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-        background: #FF2276;
-        left: -15px;
-    }
+.customers-carousel .carousel-control.left {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    background: #607D8B;
+    left: -15px;
+}
 
-    .clients-carousel .carousel-control.right {
-        height: 30px;
-        width: 25px;
-        margin-top: 45px;
-        background: #FF2276;
-        right: -15px;
-    }
+.customers-carousel .carousel-control.right {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    background: #607D8B;
+    right: -15px;
+}
 
-    .clients-carousel img {
-        width: 100%;
-        height: 120px;
-    }
+.customers-carousel img {
+    width: 100%;
+    height: 120px;
+}
 
-#clients .thumbnail {
+#customers .thumbnail {
     background-color: transparent;
 }
 
@@ -234,8 +239,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+    background-color: #426b83;
+    border: 2px solid #426b83;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -246,7 +251,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
+    border: 2px solid #FFFFFF;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -257,16 +262,17 @@ padding:0px;
     opacity: 0.8;
 }
 
-    #works img:hover {
-        filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-        opacity: 1;
-    }
+#works img:hover {
+    filter: none; /* FOR IE6-9 */
+    -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 1;
+}
+
 /* =============================================================
   TESTIMONIAL SECTION STYLES
  ============================================================ */
 #testimonial {
-    background: url(../img/testimonial.jpg) no-repeat center center;
+    background: url(../img/team.png) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -274,18 +280,19 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #testimonial .overlay {
-        background-color: rgba(0,0,0,0.7);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+#testimonial .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* =============================================================
   TEAM SECTION STYLES
  ============================================================ */
-#team {
+#aboutme {
     background-color: #B3E5FC;
 }
 
@@ -293,17 +300,17 @@ padding:0px;
     margin-right: 40px;
     max-height: 150px;
     margin-bottom: 20px;
-    border: 2px solid #FF2276;
+    border: 2px solid #ffffff;
 }
 
-    .media img:hover {
-        opacity: 0.6;
-    }
+.media img:hover {
+    opacity: 0.6;
+}
+
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
 #contact {
-    background: url(../img/clients.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -311,26 +318,11 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #contact .overlay {
-        background-color: rgba(0,0,0,0.9);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-/* =============================================================
-  FOOTER SECTION STYLES
- ============================================================ */
-footer {
-    padding: 20px;
-    font-size: 15px;
-    text-align: center;
-    font-weight: 900;
-    background-color: rgba(237, 237, 237, 1);
+#contact .overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-
-    footer a, footer a:hover {
-        color: #000;
-        text-decoration: none;
-    }
